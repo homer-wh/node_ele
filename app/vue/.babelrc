@@ -9,7 +9,16 @@
         "stage-2"
     ],
     "plugins": [
-        "transform-runtime"
+      "transform-runtime",
+      [
+        "component",
+        [
+          {
+            "libraryName": "element-ui",
+            "styleLibraryName": "theme-chalk"
+          }
+        ]
+      ]
     ],
     "comments": false,
     "env": {
